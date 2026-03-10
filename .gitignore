@@ -1,0 +1,49 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+*.egg-info/
+dist/
+build/
+.eggs/
+*.egg
+
+# Virtual environments
+.venv/
+venv/
+ENV/
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# Node / Frontend
+frontend/node_modules/
+frontend/tsconfig.tsbuildinfo
+
+# Build output (regenerable with npm run build)
+backend/frontend_dist/
+
+# OS
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Data files (don't commit test data)
+*.csv
+*.xlsx
+*.xls
+*.parquet
+*.db
+*.sqlite
+
+# Saved pipelines (optional — uncomment if you don't want to track them)
+# backend/pipelines/*.json
+
+# Env / secrets
+.env
+.env.*
